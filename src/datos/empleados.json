@@ -1,0 +1,72 @@
+[
+{
+    "id": 1,
+    "nombre":"Maria",
+    "apellido":"Lopez",
+    "cargo":"Gerente",
+    "activo": true
+} ,
+{
+    "id": 2,
+    "nombre":"Sonia",
+    "apellido":"Lopez",
+    "cargo":"Gerente",
+    "activo": true
+} ,
+{
+    "id": 3,
+    "nombre":"Joaquin",
+    "apellido":"Lopez",
+    "cargo":"Gerente",
+    "activo": true
+} ,
+{
+    "id": 4,
+    "nombre":"Lucia",
+    "apellido":"Lopez",
+    "cargo":"Gerente",
+    "activo": true
+} ,
+{
+    "id": 5,
+    "nombre":"Andy",
+    "apellido":"Lopez",
+    "cargo":"Gerente",
+    "activo": true
+} ,
+{
+    "id": 6,
+    "nombre":"Paola",
+    "apellido":"Lopez",
+    "cargo":"Gerente",
+    "activo": true
+} ,
+{
+    "id": 7,
+    "nombre":"Miriam",
+    "apellido":"Lopez",
+    "cargo":"Gerente",
+    "activo": true
+} ,
+{
+    "id": 8,
+    "nombre":"Alejandro",
+    "apellido":"Lopez",
+    "cargo":"Gerente",
+    "activo": true
+} ,
+{
+    "id": 9,
+    "nombre":"Joaquin",
+    "apellido":"Bracamonte",
+    "cargo":"Sistemas",
+    "activo": true
+} ,
+{
+    "id": 10,
+    "nombre":"Carlos",
+    "apellido":"Lopez",
+    "cargo":"Marketing",
+    "activo": true
+} 
+]
