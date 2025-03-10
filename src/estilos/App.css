@@ -1,68 +1,70 @@
 
 .container {
-  text-align: center;
-  font-family: Arial, sans-serif;
+  text-align: center; /*Alineacion del texto*/
+  font-family: Arial, sans-serif; /*Tipo de letra para el contenido de la pagina*/
   }
   .empleado-card {
   border: 2px solid #ccc;/* Estilos para empleados activos */
+  padding: 10px; /*Espacio entre el contenido del elemento y su borde*/
+  margin: 10px; /*Espacio fuera del elemento*/
+  display: inline-block; /*Los elementos se mostraran en una sola linea, pudiendo definir el ancho y alto*/
+  width: 250px; /*Ancho de la tarjeta*/
+  border-radius: 5px; /*Redondea las esquinas de la tarjeta*/
+  text-align: center; /*Texto alineado al centro*/
+  transition: background-color 0.3s, color 0.3s; /* permite la transicion*/
+  }
+  /*Estilos para empleados activos*/
   .empleado-card.activo {
   background-color: #d4edda; /* Verde claro */
-  border-color: #28a745;
+  border-color: #28a745; /*Color del borde*/
   color: #155724;
   }
   /* Estilos para empleados inactivos */
   .empleado-card.inactivo {
   background-color: #f8d7da; /* Rojo claro */
-  border-color: #dc3545;
+  border-color: #dc3545; /*color del borde*/
   color: #721c24;
   }
-  padding: 10px;
-  margin: 10px;
-  display: inline-block;
-  width: 250px;
-  border-radius: 5px;
-  text-align: center;
-  transition: background-color 0.3s, color 0.3s;
-  }
+ 
   /* Estado Activo e Inactivo (Texto) */
 .estado-activo {
-  color: #28a745;
-  font-weight: bold;
+  color: #28a745; /*color de texto*/
+  font-weight: bold;/*tipo de letra negrita*/
   }
   .estado-inactivo {
-  color: #dc3545;
-  font-weight: bold;
+  color: #dc3545; /*colo de texto cuando el estado es inactivo*/
+  font-weight: bold; /*Tipo de letra negrita*/
   }
   /* Botón de cambiar estado */
 .cambiar-estado-btn {
-  padding: 5px 10px;
-  margin-top: 5px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
+  padding: 5px 10px; /*Espacio entre el elemento y su borde*/
+  margin-top: 5px; /*margen superior*/
+  cursor: pointer; /*indica el boton es un elemento clickeable*/
+  border: none; /*Elimina el borde visible*/
+  border-radius: 5px; /*redondea las esquinas*/
+  background-color: #007bff; /*color de fondo*/
   color: white;
   }
   .cambiar-estado-btn:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /*Color al pasar el mouse*/
   }
 
   /* Botón de cambiar estado */
 .cambiar-estado-btn {
-  padding: 5px 10px;
-  margin-top: 5px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
+  padding: 5px 10px;/*Espacio entre el contenido del elemento y su borde*/
+  margin-top: 5px;/*Espacio fuera del elemento*/
+  cursor: pointer; /*indica el boton es un elemento clickeable*/
+  border: none; /*Elimina el borde visible*/
+  border-radius: 5px; /*redondea las esquinas*/
+  background-color: #007bff; /*color de fondo*/
   color: white;
   }
   .cambiar-estado-btn:hover {
-  background-color: #0056b3;
+  background-color: #0056b3;  /*Color al pasar el mouse*/
   }
   /* Estilos para el selector */
 select {
-  padding: 5px;
-  margin: 10px;
-  font-size: 16px;
+  padding: 5px;/*Espacio entre el contenido del elemento y su borde*/
+  margin: 10px;/*Espacio fuera del elemento*/
+  font-size: 16px; /*tamaño de letra*/
   }
